@@ -1,0 +1,14 @@
+<h1> {{firstArtist}}
+</h1>
+<ul >
+{{#each artists}}
+  <li>{{this.name}}</li>
+  <li>{{this.images.[0]}}</li>
+{{/each}}
+</ul>
+
+{{!-- <ul >
+{{#each artistsImage}}
+  <li> {{this.image}}</li>
+{{/each}}
+</ul> --}}
